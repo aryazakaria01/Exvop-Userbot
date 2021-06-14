@@ -1,7 +1,6 @@
 {
-  "name": "Lynx-Userbot",
-  "description": "[⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/f3c656862a017f945c0bc.png",
+  "name": "Exvop-Userbot",
+  "description": "Exvop-Userbot Telegram userbot For Fun in telegram based on telethon.",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,10 +8,10 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/KENZO-404/Lynx-Userbot",
-  "telegram": "https://t.me/SyndicateTwenty4",
-  "success_url": "https://t.me/SomethingIsMissing",
-  "stack": "container",
+  "repository": "https://github.com/aryazakaria01/Exvop-Userbot",
+  "telegram": "https://t.me/badboyanim",
+  "success_url": "https://t.me/kyuzato",
+  "stack": "heroku-20",
   "env": {
     "API_KEY": {
       "description": "Dapatkan Api Key di web my.telegram.org.",
@@ -23,7 +22,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya @SyncidateTwenty4 di telegram",
+      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya @badboyanim di telegram",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -160,7 +159,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
+      "value": "",
       "required": false
     },
     "ALIVE_NAME": {
