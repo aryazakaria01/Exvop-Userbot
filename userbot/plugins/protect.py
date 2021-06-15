@@ -75,6 +75,6 @@ CMD_HELP.update(
     {
         "protecc": "**Plugin : **`protecc`\
     \n\n**Syntax : **`.x`\
-    \n**Function : **this plugin protecc waifu"
+    \n**Function : **Untuk Proecc waifu dari @loli_harem_bot"
     }
 )
