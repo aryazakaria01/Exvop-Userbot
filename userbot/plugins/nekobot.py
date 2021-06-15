@@ -228,15 +228,15 @@ async def tweet(event):
 
 CMD_HELP.update(
     {
-        "nekobot": ">`.tweet` <username>.<tweet>"
+        "nekobot": ">`&tweet` <username>.<tweet>"
         "\nUsage: Create tweet with custom username.\n\n"
-        ">`.trump` <tweet>"
+        ">`&trump` <tweet>"
         "\nUsage: Create tweet for Donald Trump.\n\n"
-        ">`.qg` <tweet>"
+        ">`&qg` <tweet>"
         "\nUsage: Create tweet for `@QoryGore`.\n\n"
-        ">`.cmm` <text>"
+        ">`&cmm` <text>"
         "\nUsage: Create banner for Change My Mind.\n\n"
-        ">`.kanna` <text>"
+        ">`&kanna` <text>"
         "\nUsage: Kanna is writing your text."
     }
 )
