@@ -41,7 +41,7 @@
 </p>
 
 <p align="center">
-   <a href = "https://heroku.com/deploy?template=https://github.com/KENZO-404/Lynx-Userbot/tree/Lynx-Userbot"><img src="https://telegra.ph/file/f3c656862a017f945c0bc.png" alt="Press to Takeoff" width="490px"></a>
+   <a href = "https://heroku.com/deploy?template=https://github.com/aryazakaria01/Exvop-Userbot/tree/Exvop-Userbot"><img src="https://telegra.ph/file/f3c656862a017f945c0bc.png" alt="Press to Takeoff" width="490px"></a>
 </p>
 <br>
 
@@ -72,9 +72,9 @@
 
  2. Wait for the installation to finish, if you have copied the one below.
 
-<T>   $ pip install telethon && wget https://raw.githubusercontent.com/KENZO-404/Lynx-Userbot/Lynx-Userbot/string_session.py && python string_session.py
+<T>   $ pip install telethon && wget https://raw.githubusercontent.com/aryazakaria01/Exvop-Userbot/Exvop-Userbot/string_session.py && python string_session.py
 
-<P>   $ wget https://raw.githubusercontent.com/KENZO-404/Lynx-String-Session/master/pyrogram-session.py && python string_session.py
+<P>   $ wget https://raw.githubusercontent.com/aryazakaria01/Exvop-String-Session/master/pyrogram-session.py && python string_session.py
 
  <T> (For Telethon) and <P> (For Pyrogram)
  Just choose Telethon if you want to deploy.
