@@ -32,7 +32,7 @@ async def help(event):
         if args in CMD_HELP:
             await event.edit(str(CMD_HELP[args]))
         else:
-            await event.edit("**Plugin yang anda ketik salah ❌\nMohon ketik plugin dengan benar.**")
+            await event.edit("**Plugin tidak ditemukan.**")
             await asyncio.sleep(200)
             await event.delete()
     else:
@@ -42,10 +42,10 @@ async def help(event):
             string += "`\t|  "
         await event.edit("⚡")
         await asyncio.sleep(3)
-        await event.edit("**⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡**\n\n"
-                         f"**◑» Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n**◑» Pʟᴜɢɪɴ : {len(modules)}**\n\n"
+        await event.edit("**Exvop UserBot**\n\n"
+                         f"*Bot Dari {DEFAULTUSER}**\n**Modul: {len(modules)}**\n\n"
                          "**• Mᴀɪɴ Mᴇɴᴜ :**\n"
                          f"╰►| {string} ◄─\n\n")
-        await event.reply(f"\n**Contoh** : Ketik » `.help busy` Untuk Informasi Pengunaan Plugin Busy.\nAtau Bisa Juga Dengan Cara, Ketik `.helpme` Untuk Menggunakan Inline Bot Dari @BotFather.\n Jika Tidak Tahu Caranya, Silahkan Bertanya ke » [sini](t.me/SyndicateTwenty4) « Terimakasih 🙏")
+        await event.reply(f"\n__Contoh__ : Ketik » `.help afk` Untuk Informasi Pengunaan Plugin afk.\nAtau Bisa Juga Dengan Cara, Ketik `.helpme` Untuk Menggunakan Inline Bot Dari @BotFather.\n Jika Tidak Tahu Caranya, Silahkan Bertanya ke » [sini](t.me/SyndicateTwenty4) « Terimakasih 🙏")
         await asyncio.sleep(1000)
         await event.delete()
