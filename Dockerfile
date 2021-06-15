@@ -3,7 +3,7 @@ FROM biansepang/weebproject:buster
 # ==========================================
 #              Exvop - Userbot
 # ==========================================
-RUN git clone -b Lynx-Userbot https://github.com/aryazakaria01/Exvop-Userbot /root/userbot
+RUN git clone -b Exvop-Userbot https://github.com/aryazakaria01/Exvop-Userbot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --no-cache-dir --upgrade pip setuptools
 WORKDIR /root/userbot
