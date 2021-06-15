@@ -178,14 +178,14 @@ async def _(event):
 # Lord
 CMD_HELP.update({
     "animasi":
-    "⚡𝘾𝙈𝘿⚡: `.nah` ; `.huh` ; `.owner`\
+    "⚡𝘾𝙈𝘿⚡: `&nah` ; `&huh` ; `&owner`\
     \n↳ : Cobain Aja Sendiri.\
-    \n\n⚡𝘾𝙈𝘿⚡: `.bunga` ; `.buah`\
+    \n\n⚡𝘾𝙈𝘿⚡: `&bunga` ; `&buah`\
     \n↳ : animasi.\
-    \n\n⚡𝘾𝙈𝘿⚡: `.waktu`\
+    \n\n⚡𝘾𝙈𝘿⚡: `&waktu`\
     \n↳ : animasi.\
-    \n\n⚡𝘾𝙈𝘿⚡: `.hua`\
+    \n\n⚡𝘾𝙈𝘿⚡: `&hua`\
     \n↳ : nangis.\
-    \n\n⚡𝘾𝙈𝘿⚡: `.ceritacinta` ; `.canda`\
+    \n\n⚡𝘾𝙈𝘿⚡: `&ceritacinta` ; `&canda`\
     \n↳ : liat sendiri"
 })
