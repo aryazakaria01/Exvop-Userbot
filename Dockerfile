@@ -1,9 +1,9 @@
 # Docker Tag Images, Using Python Slim Buster.
 FROM biansepang/weebproject:buster
 # ==========================================
-#              Lynx - Userbot
+#              Exvop - Userbot
 # ==========================================
-RUN git clone -b Lynx-Userbot https://github.com/KENZO-404/Lynx-Userbot /root/userbot
+RUN git clone -b Lynx-Userbot https://github.com/aryazakaria01/Exvop-Userbot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --no-cache-dir --upgrade pip setuptools
 WORKDIR /root/userbot
