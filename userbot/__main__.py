@@ -27,7 +27,9 @@ for module_name in ALL_MODULES:
 
 
 LOGS.info(
-    f"⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]")
+    f"Userbot Telah Diaktifkan Versi:{BOT_VER}")
+
+print("Jika Ada Bug Lapor Di @exvopUserBot")
 
 
 if len(argv) not in (1, 3, 4):
