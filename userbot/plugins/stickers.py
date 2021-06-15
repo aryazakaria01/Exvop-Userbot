@@ -24,12 +24,12 @@ from userbot.events import register
 
 
 KANGING_STR = [
-    "Mengambil Sticker Ini Ke Pack Anda",
-    "Yang Mulia Sedang Mengambil Sticker Ini Ke Pack",
+    "Izin mencuri sticker mu kawan....",
+    "Mencuri sticker ini ke pack.....",
 ]
 
 
-@register(outgoing=True, pattern=r"^\.(?:tikel|kang)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:tikel|curi)\s?(.)?")
 async def kang(args):
     user = await bot.get_me()
     if not user.username:
@@ -54,7 +54,7 @@ async def kang(args):
                 in message.media.document.attributes
             ):
                 emoji = message.media.document.attributes[1].alt
-                if emoji != "👑":
+                if emoji != "😎":
                     emojibypass = True
         elif "tgsticker" in message.media.document.mime_type:
             await args.edit(f"`{random.choice(KANGING_STR)}`")
@@ -76,7 +76,7 @@ async def kang(args):
     if photo:
         splat = args.text.split()
         if not emojibypass:
-            emoji = "👑"
+            emoji = "😋"
         pack = 1
         if len(splat) == 3:
             pack = splat[2]  # User sent both
@@ -175,7 +175,7 @@ async def kang(args):
                         return await args.edit(
                             "`Sticker ditambahkan ke pack yang berbeda !"
                             "\nIni Pack Yang Baru Saja Anda Buat Yang Mulia!"
-                            f"\nTekan [⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡](t.me/addstickers/{packname}) Untuk Melihat Sticker Anda",
+                            f"\nTekan [Ini](t.me/addstickers/{packname}) Untuk Melihat Sticker mu",
                             parse_mode="md",
                         )
                 if is_anim:
@@ -187,7 +187,7 @@ async def kang(args):
                 rsp = await conv.get_response()
                 if "Sorry, the file type is invalid." in rsp.text:
                     return await args.edit(
-                        "`Maaf Yang Mulia, Saya Gagal Menambahkan Sticker, Gunakan` @Stickers ` Bot Untuk Menambahkan Sticker Anda.`"
+                        "`Maaf, Saya Gagal Menambahkan Sticker, Gunakan` @Stickers ` Bot Untuk Menambahkan Sticker Anda.`"
                     )
                 await conv.send_message(emoji)
                 # Ensure user doesn't get spamming notifications
@@ -217,7 +217,7 @@ async def kang(args):
                 rsp = await conv.get_response()
                 if "Sorry, the file type is invalid." in rsp.text:
                     return await args.edit(
-                        "`Mohon Maaf Yang Mulia, Saya Gagal Menambahkan Sticker, Gunakan` @Stickers ` Bot Untuk Menambahkan Sticker.`"
+                        "`Mohon Maaf, Saya Gagal Menambahkan Sticker, Gunakan` @Stickers ` Bot Untuk Menambahkan Sticker.`"
                     )
                 await conv.send_message(emoji)
                 # Ensure user doesn't get spamming notifications
@@ -242,7 +242,7 @@ async def kang(args):
                 await bot.send_read_acknowledge(conv.chat_id)
 
         await args.edit(
-            f"**Sticker Berhasil Ditambahkan, Tekan** **[⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡](t.me/addstickers/{packname})** **Untuk Melihat Sticker Anda Yang Mulia**",
+            f"**Sticker Berhasil Ditambahkan, Tekan** **[Ini](t.me/addstickers/{packname})** **Untuk Melihat Sticker Anda Yang Mulia**",
             parse_mode="md",
         )
 
@@ -271,7 +271,7 @@ async def resize_photo(photo):
     return image
 
 
-@register(outgoing=True, pattern=r"^\.stkrinfo$")
+@register(outgoing=True, pattern=r"^\.stickerinfo$")
 async def get_pack_info(event):
     if not event.is_reply:
         return await event.edit(
@@ -348,13 +348,13 @@ async def sticker_to_png(sticker):
 
 CMD_HELP.update(
     {
-        "stickers": "⚡𝘾𝙈𝘿⚡: `.kang | .tikel [emoji('s)]?`"
+        "stickers": "⚡𝘾𝙈𝘿⚡: `.curi | .tikel [emoji('s)]?`"
         "\n↳ : Balas .tikel Ke Sticker Atau Gambar Untuk Menambahkan Ke Pack Mu "
         "\nBisa Memilih Emoji Sesuai Pilihanmu."
-        "\n\n⚡𝘾𝙈𝘿⚡: `.kang | .tikel  (emoji['s]]?` [nomer]?"
+        "\n\n⚡𝘾𝙈𝘿⚡: `.curi | .tikel  (emoji['s]]?` [nomer]?"
         "\n↳ : Ambil Sticker/Gambar Ke Pack Baru Mu "
         "Dan Bisa Pilih Emoji Sticker Mu."
-        "\n\n⚡𝘾𝙈𝘿⚡: `.stkrinfo`"
+        "\n\n⚡𝘾𝙈𝘿⚡: `.stickerinfo`"
         "\n↳ : Dapatkan Informasi Pack Sticker."
         "\n\n⚡𝘾𝙈𝘿⚡: `.getsticker`"
         "\n↳ : Balas Ke Stcker Untuk Mendapatkan File 'PNG' Sticker."})
