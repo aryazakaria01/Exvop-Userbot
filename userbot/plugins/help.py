@@ -46,6 +46,6 @@ async def help(event):
                          f"*Bot Dari {DEFAULTUSER}**\n**Modul: {len(modules)}**\n\n"
                          "**• Mᴀɪɴ Mᴇɴᴜ :**\n"                                                                                                                                                                                                                                                                                       
                          f"╰►| {string} ◄─\n\n")
-        await event.reply(f"\n__Contoh__ : Ketik » `.help afk` Untuk Informasi Pengunaan Plugin afk.\nAtau Bisa Juga Dengan Cara, Ketik `.helpme` Untuk Menggunakan Inline Bot Dari @BotFather.\n Jika Tidak Tahu Caranya, Silahkan Bertanya ke » [sini](t.me/Badboyanim « Terimakasih 🙏")
+        await event.reply(f"\n__Contoh__ : Ketik » `&help busy` Untuk Informasi Pengunaan Plugin afk.\nAtau Bisa Juga Dengan Cara, Ketik `&helpme` Untuk Menggunakan Inline Bot Dari @BotFather.\n Jika Tidak Tahu Caranya, Silahkan Bertanya ke » [sini](t.me/Badboyanim « Terimakasih 🙏")
         await asyncio.sleep(1000)
         await event.delete()
