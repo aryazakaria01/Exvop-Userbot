@@ -29,7 +29,7 @@ for module_name in ALL_MODULES:
 LOGS.info(
     f"Userbot Telah Diaktifkan Versi:{BOT_VER}")
 
-print("Jika Ada Bug Lapor Di @exvopUserBot")
+print("Jika Ada Bug Lapor Di @Badboyanim")
 
 
 if len(argv) not in (1, 3, 4):
