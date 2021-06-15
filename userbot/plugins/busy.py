@@ -250,7 +250,7 @@ async def _(event):
 
 CMD_HELP.update({
     "busy": "✘ Pʟᴜɢɪɴ : Busy.\
-\n\n⚡𝘾𝙈𝘿⚡: `.busy` <Alasan/Reason> & <Reply Image/Gambar>\
+\n\n⚡𝘾𝙈𝘿⚡: `&busy` <Alasan/Reason> & <Reply Image/Gambar>\
 \n↳ : Lakukan Ketika Anda Sedang Sibuk.\nSiapapun Yang Balas, Tag, Atau Chat Kamu,\
 Mereka Akan Tau Alasan Kamu Sibuk.\n\nSystem Ini Bisa Dilakukan Dan Dibatalkan Dimanapun.\
 "
