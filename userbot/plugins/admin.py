@@ -39,7 +39,7 @@ PP_TOO_SMOL = "`Gambar Terlalu Kecil`"
 PP_ERROR = "`Terjadi Kesalahan, Gagal Memprosess Gambar.`"
 NO_ADMIN = "`Mohon Maaf, Anda Bukan Admin.`"
 NO_PERM = "`Anda Tidak Mempunyai Izin!`"
-NO_SQL = "`Berjalan Pada Mode Non-SQL`"
+NO_SQL = "**Berjalan Pada Mode Tanpa SQL**"
 
 CHAT_PP_CHANGED = "`Berhasil Mengubah Profil Grup`"
 CHAT_PP_ERROR = (
