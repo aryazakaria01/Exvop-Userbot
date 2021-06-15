@@ -142,7 +142,7 @@ async def on_afk(event):
 
 
 @register(
-    outgoing=True, pattern=r"^\.busy(?: |$)(.*)", disable_errors=True
+    outgoing=True, pattern=r"^\.afk(?: |$)(.*)", disable_errors=True
 )  # pylint:disable=E0602
 async def _(event):
     if event.fwd_from:
@@ -249,8 +249,8 @@ async def _(event):
 
 
 CMD_HELP.update({
-    "busy": "✘ Pʟᴜɢɪɴ : Busy.\
-\n\n⚡𝘾𝙈𝘿⚡: `&busy` <Alasan/Reason> & <Reply Image/Gambar>\
+    "afk": "✘ Pʟᴜɢɪɴ : Busy.\
+\n\n cmd: `&afk` <Alasan/Reason> & <Reply Image/Gambar>\
 \n↳ : Lakukan Ketika Anda Sedang Sibuk.\nSiapapun Yang Balas, Tag, Atau Chat Kamu,\
 Mereka Akan Tau Alasan Kamu Sibuk.\n\nSystem Ini Bisa Dilakukan Dan Dibatalkan Dimanapun.\
 "
