@@ -9,7 +9,7 @@ async def _(event):
     if event.fwd_from:
         return
     link = event.pattern_match.group(1)
-    chat = "@nHentaiBot"
+    chat = "@nhentai_v3_bot"
     await event.edit("```Processing```")
     async with bot.conversation(chat) as conv:
         try:
@@ -31,4 +31,4 @@ async def _(event):
 CMD_HELP.update({
     "hentai":
     "`.hentai` <link / code> \
-\nUsage: view nhentai in telegra.ph XD\n"})
+\nUsage: Untuk menambah dosa\n"})
