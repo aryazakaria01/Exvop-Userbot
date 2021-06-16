@@ -165,7 +165,7 @@ async def bot_ver(event):
 
         await event.edit(
             "**⚜-**⚡𝗘𝘅𝘃𝗼𝗽-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Versi:** \n "
-            f"heads/Lynx-Userbot-0-x634i7u1"
+            f"heads/Exvop-Userbot-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -234,11 +234,11 @@ async def amireallyalive(alive):
         f"╭╼════════════════════╾╮\n"
         f"│    ⇱  𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐌𝐲 𝐏𝐫𝐨𝐟𝐢𝐥𝐞 ⇲ \n"
         f"┟╼════════════════════╾┤\n"
-        f"╟◈ 😼  `Exvop     :` {DEFAULTUSER}\n"
+        f"╟◈ 😼  `Exvop Owner     :` {DEFAULTUSER}\n"
         f"╟◈ 🔎  `Username :` @{user.username}\n"
         f"╟◈ ⚙️  `Telethon :` v. {version.__version__}\n"
         f"╟◈ 🐍  `Python   :` v. {python_version()}\n"
-        f"╟◈ 👾  `Bot Ver  :` v. {BOT_VER}\n"
+        f"╟◈ 👾  `Bot Version  :` v. {BOT_VER}\n"
         f"╟◈ 🛠️  `Branch   :` {UPSTREAM_REPO_BRANCH}\n"
         f"╟◈ 💻  `System   :` Ubuntu 20.10\n"
         f"╟◈ 📂  `Plugins  :` {len(modules)} Plugins\n"
@@ -257,7 +257,7 @@ async def amireallyalive(alive):
         except BaseException:
             await alive.edit(
                 output + "\n\n *`The provided logo is invalid."
-                "\nMake sure the link is directed to the logo picture`"
+                "\n Pastikan link diarahkan ke gambar logo`"
             )
             await asyncio.sleep(100)
             await alive.delete()
@@ -358,7 +358,7 @@ async def redis(alive):
         f"╭╼════════════════════╾╮\n"
         f"│    ⇱  𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐌𝐲 𝐏𝐫𝐨𝐟𝐢𝐥𝐞 ⇲ \n"
         f"┟╼════════════════════╾┤\n"
-        f"╟◈ 😼  `Phoenix     :` {DEFAULTUSER}\n"
+        f"╟◈ 😼  `Exvop owner     :` {DEFAULTUSER}\n"
         f"╟◈ 🔎  `Username :` @{user.username}\n"
         f"╟◈ ⚙️  `Telethon :` v. {version.__version__}\n"
         f"╟◈ 🐍  `Python   :` v. {python_version()}\n"
@@ -367,8 +367,8 @@ async def redis(alive):
         f"╟◈ 💻  `System   :` Ubuntu 20.10\n"
         f"╟◈ 📂  `Plugins  :` {len(modules)} Plugins\n"
         f"┞╼════════════════════╾┤\n"
-        f"├◈ **Don't forget to support our**\n"
-        f"│    **userbot, how to press below.**\n"
+        f"├◈ **Jangan lupa dukung kami**\n"
+        f"│    **userbot, cara menekan di bawah ini.**\n"
         f"╰╼════════════════════╾╯\n"
         f"| [𝗥𝗲𝗽𝗼](https://aryazakaria01.github.io/Exvop-Userbot) | [𝗘𝘅𝘃𝗼𝗽-𝗧𝗲𝗮𝗺](t.me/GeezSupportGroup) | 
     if ALIVE_LOGO:
