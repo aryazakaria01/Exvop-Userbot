@@ -245,7 +245,7 @@ async def amireallyalive(alive):
         f"┞╼════════════════════╾┤\n"
         f"├◈ **{LYNX_TEXT_CUSTOM}**\n"
         f"╰╼════════════════════╾╯\n"
-        f"| [𝗥𝗲𝗽𝗼](https://aryazakaria01.github.io/Exvop-Userbot) | [𝗘𝘅𝘃𝗼𝗽-𝗧𝗲𝗮𝗺](t.me/GeezSupportGroup) | 
+        f"| [𝗥𝗲𝗽𝗼](https://aryazakaria01.github.io/Exvop-Userbot) | [𝗘𝘅𝘃𝗼𝗽-𝗧𝗲𝗮𝗺](t.me/GeezSupportGroup) | "
 
     if ALIVE_LOGO:
         try:
@@ -370,7 +370,7 @@ async def redis(alive):
         f"├◈ **Jangan lupa dukung kami**\n"
         f"│    **userbot, cara menekan di bawah ini.**\n"
         f"╰╼════════════════════╾╯\n"
-        f"| [𝗥𝗲𝗽𝗼](https://aryazakaria01.github.io/Exvop-Userbot) | [𝗘𝘅𝘃𝗼𝗽-𝗧𝗲𝗮𝗺](t.me/GeezSupportGroup) | 
+        f"| [𝗥𝗲𝗽𝗼](https://aryazakaria01.github.io/Exvop-Userbot) | [𝗘𝘅𝘃𝗼𝗽-𝗧𝗲𝗮𝗺](t.me/GeezSupportGroup) | "
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
